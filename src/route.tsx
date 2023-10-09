@@ -9,8 +9,8 @@ const AppRoutes = () => {
     <BrowserRouter>
         <Routes>
             <Route path="/" element={ <Home /> }> </Route>;
-            <Route path="/acard" element={ <Acard /> }> </Route>;
-            <Route path="/aform" element={ <Aform /> }> </Route>;
+            <Route path="https://desafio-react-henna.vercel.app/acard" element={ <Acard /> }> </Route>;
+            <Route path="https://desafio-react-henna.vercel.app/aform" element={ <Aform /> }> </Route>;
         </Routes>
     </BrowserRouter>
   )

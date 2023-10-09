@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from './pages/home/home';
-import Acard from './pages/acard/aCard'
-import Aform from "./pages/aform/aForm";
+import Acard from './pages/acard/acard'
+import Aform from "./pages/aform/aform";
 
 
 const AppRoutes = () => {

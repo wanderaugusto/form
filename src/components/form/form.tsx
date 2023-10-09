@@ -16,13 +16,13 @@ export default function FormPropsTextFields() {
 
   const forms = {...form}
 
-  const handleInputChange = (buscar) => {
-    const { id, value } = buscar.target;
-    setForm({
-      ...form,
-      [id]: value,
-    });
-  };
+  //const handleInputChange = (buscar) => {
+    //const { id, value } = buscar.target;
+    //setForm({
+     // ...form,
+      //[id]: value,
+    //});
+ // };
 
 
   return (
@@ -44,7 +44,6 @@ export default function FormPropsTextFields() {
               placeholder="digite seu nome"
               variant="standard"
               value={forms.nome}
-              onChange={handleInputChange}
             />
         </div>
         <div>

@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { Button,  Stack } from '@mui/material';
@@ -6,7 +5,7 @@ import { Button,  Stack } from '@mui/material';
 export default function FormPropsTextFields() {
   
   
-  const [form, setForm] = React.useState({
+/*  const [form, setForm] = React.useState({
     nome: '', 
     city: '',
     state: '',
@@ -23,7 +22,7 @@ export default function FormPropsTextFields() {
       //[id]: value,
     //});
  // };
-
+*/
 
   return (
     <Box
@@ -43,7 +42,6 @@ export default function FormPropsTextFields() {
               label="Nome Completo"
               placeholder="digite seu nome"
               variant="standard"
-              value={forms.nome}
             />
         </div>
         <div>

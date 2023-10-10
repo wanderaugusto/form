@@ -1,11 +1,8 @@
 import './form.css'
-import FormPropsTextFields from '../../components/form/form'
+import FormPropsTextFields from './components/form'
 
 function Aform() {
-
-  return (
-    <FormPropsTextFields />
-  )
+  return <FormPropsTextFields />
 }
 
 export default Aform

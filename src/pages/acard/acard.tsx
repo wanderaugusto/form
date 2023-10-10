@@ -1,3 +1,4 @@
+'use client'
 import { Suspense, useEffect, useState } from 'react'
 import TextField from '@mui/material/TextField'
 import './card.css'

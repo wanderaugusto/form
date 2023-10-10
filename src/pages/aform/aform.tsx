@@ -1,3 +1,4 @@
+'use client'
 import './form.css'
 import FormPropsTextFields from './components/form'
 
